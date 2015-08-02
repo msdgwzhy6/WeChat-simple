@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB37D811B573B10006164E6 /* ViewControllerFriendsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB37D801B573B10006164E6 /* ViewControllerFriendsList.m */; };
+		2FB37D831B573B55006164E6 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FB37D821B573B55006164E6 /* friends.plist */; };
+		2FB37D851B573B8B006164E6 /* tableCell_common.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB37D841B573B8B006164E6 /* tableCell_common.png */; };
+		2FC1547B1B56100B00C07A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1547A1B56100B00C07A85 /* main.m */; };
+		2FC1547E1B56100B00C07A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1547D1B56100B00C07A85 /* AppDelegate.m */; };
+		2FC154861B56100B00C07A85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154851B56100B00C07A85 /* Images.xcassets */; };
+		2FC154891B56100B00C07A85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154871B56100B00C07A85 /* LaunchScreen.xib */; };
+		2FC154951B56100B00C07A85 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC154941B56100B00C07A85 /* __Tests.m */; };
+		2FC154A31B56108700C07A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC154A21B56108700C07A85 /* ViewController.m */; };
+		2FC154A61B5610AC00C07A85 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC154A51B5610AC00C07A85 /* MessageTableViewCell.m */; };
+		2FC154A91B56117A00C07A85 /* MessageModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC154A81B56117A00C07A85 /* MessageModal.m */; };
+		2FC154BC1B5611FB00C07A85 /* chat_bg_default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154AB1B5611FB00C07A85 /* chat_bg_default.jpg */; };
+		2FC154BD1B5611FB00C07A85 /* chat_bottom_keyboard_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154AC1B5611FB00C07A85 /* chat_bottom_keyboard_nor.png */; };
+		2FC154BE1B5611FB00C07A85 /* chat_bottom_keyboard_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154AD1B5611FB00C07A85 /* chat_bottom_keyboard_press.png */; };
+		2FC154BF1B5611FB00C07A85 /* chat_bottom_smile_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154AE1B5611FB00C07A85 /* chat_bottom_smile_nor.png */; };
+		2FC154C01B5611FB00C07A85 /* chat_bottom_smile_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154AF1B5611FB00C07A85 /* chat_bottom_smile_press.png */; };
+		2FC154C11B5611FB00C07A85 /* chat_bottom_textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B01B5611FB00C07A85 /* chat_bottom_textfield.png */; };
+		2FC154C21B5611FB00C07A85 /* chat_bottom_up_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B11B5611FB00C07A85 /* chat_bottom_up_nor.png */; };
+		2FC154C31B5611FB00C07A85 /* chat_bottom_up_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B21B5611FB00C07A85 /* chat_bottom_up_press.png */; };
+		2FC154C41B5611FB00C07A85 /* chat_bottom_voice_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B31B5611FB00C07A85 /* chat_bottom_voice_nor.png */; };
+		2FC154C51B5611FB00C07A85 /* chat_bottom_voice_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B41B5611FB00C07A85 /* chat_bottom_voice_press.png */; };
+		2FC154C61B5611FB00C07A85 /* chatfrom_bg_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B51B5611FB00C07A85 /* chatfrom_bg_normal.png */; };
+		2FC154C71B5611FB00C07A85 /* chatto_bg_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B61B5611FB00C07A85 /* chatto_bg_normal.png */; };
+		2FC154C81B5611FB00C07A85 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B71B5611FB00C07A85 /* Icon.png */; };
+		2FC154C91B5611FB00C07A85 /* icon01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B81B5611FB00C07A85 /* icon01.jpg */; };
+		2FC154CA1B5611FB00C07A85 /* icon02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154B91B5611FB00C07A85 /* icon02.jpg */; };
+		2FC154CB1B5611FB00C07A85 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154BA1B5611FB00C07A85 /* Icon@2x.png */; };
+		2FC154CC1B5611FB00C07A85 /* toolbar_bottom_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154BB1B5611FB00C07A85 /* toolbar_bottom_bar.png */; };
+		2FC154CE1B56120800C07A85 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FC154CD1B56120800C07A85 /* messages.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC1548F1B56100B00C07A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC1546D1B56100B00C07A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC154741B56100B00C07A85;
+			remoteInfo = "微信";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FB37D7F1B573B10006164E6 /* ViewControllerFriendsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFriendsList.h; sourceTree = "<group>"; };
+		2FB37D801B573B10006164E6 /* ViewControllerFriendsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFriendsList.m; sourceTree = "<group>"; };
+		2FB37D821B573B55006164E6 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		2FB37D841B573B8B006164E6 /* tableCell_common.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableCell_common.png; sourceTree = "<group>"; };
+		2FC154751B56100B00C07A85 /* 微信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC154791B56100B00C07A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC1547A1B56100B00C07A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FC1547C1B56100B00C07A85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FC1547D1B56100B00C07A85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FC154851B56100B00C07A85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FC154881B56100B00C07A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FC1548E1B56100B00C07A85 /* 微信Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC154931B56100B00C07A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC154941B56100B00C07A85 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		2FC154A11B56108700C07A85 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FC154A21B56108700C07A85 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FC154A41B5610AC00C07A85 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		2FC154A51B5610AC00C07A85 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		2FC154A71B56117A00C07A85 /* MessageModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModal.h; sourceTree = "<group>"; };
+		2FC154A81B56117A00C07A85 /* MessageModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModal.m; sourceTree = "<group>"; };
+		2FC154AB1B5611FB00C07A85 /* chat_bg_default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chat_bg_default.jpg; sourceTree = "<group>"; };
+		2FC154AC1B5611FB00C07A85 /* chat_bottom_keyboard_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_keyboard_nor.png; sourceTree = "<group>"; };
+		2FC154AD1B5611FB00C07A85 /* chat_bottom_keyboard_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_keyboard_press.png; sourceTree = "<group>"; };
+		2FC154AE1B5611FB00C07A85 /* chat_bottom_smile_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_smile_nor.png; sourceTree = "<group>"; };
+		2FC154AF1B5611FB00C07A85 /* chat_bottom_smile_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_smile_press.png; sourceTree = "<group>"; };
+		2FC154B01B5611FB00C07A85 /* chat_bottom_textfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_textfield.png; sourceTree = "<group>"; };
+		2FC154B11B5611FB00C07A85 /* chat_bottom_up_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_up_nor.png; sourceTree = "<group>"; };
+		2FC154B21B5611FB00C07A85 /* chat_bottom_up_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_up_press.png; sourceTree = "<group>"; };
+		2FC154B31B5611FB00C07A85 /* chat_bottom_voice_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_voice_nor.png; sourceTree = "<group>"; };
+		2FC154B41B5611FB00C07A85 /* chat_bottom_voice_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bottom_voice_press.png; sourceTree = "<group>"; };
+		2FC154B51B5611FB00C07A85 /* chatfrom_bg_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatfrom_bg_normal.png; sourceTree = "<group>"; };
+		2FC154B61B5611FB00C07A85 /* chatto_bg_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatto_bg_normal.png; sourceTree = "<group>"; };
+		2FC154B71B5611FB00C07A85 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2FC154B81B5611FB00C07A85 /* icon01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon01.jpg; sourceTree = "<group>"; };
+		2FC154B91B5611FB00C07A85 /* icon02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon02.jpg; sourceTree = "<group>"; };
+		2FC154BA1B5611FB00C07A85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2FC154BB1B5611FB00C07A85 /* toolbar_bottom_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_bottom_bar.png; sourceTree = "<group>"; };
+		2FC154CD1B56120800C07A85 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC154721B56100B00C07A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC1548B1B56100B00C07A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1E98C61B6DB34F004BF999 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154AA1B5611FB00C07A85 /* 微信图片 */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		2FB37D7E1B573A7A006164E6 /* Friend list */ = {
+			isa = PBXGroup;
+			children = (
+				2FB37D841B573B8B006164E6 /* tableCell_common.png */,
+				2FB37D7F1B573B10006164E6 /* ViewControllerFriendsList.h */,
+				2FB37D801B573B10006164E6 /* ViewControllerFriendsList.m */,
+			);
+			name = "Friend list";
+			sourceTree = "<group>";
+		};
+		2FC1546C1B56100B00C07A85 = {
+			isa = PBXGroup;
+			children = (
+				2FC154771B56100B00C07A85 /* 微信 */,
+				2FC154911B56100B00C07A85 /* 微信Tests */,
+				2FC154761B56100B00C07A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC154761B56100B00C07A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154751B56100B00C07A85 /* 微信.app */,
+				2FC1548E1B56100B00C07A85 /* 微信Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC154771B56100B00C07A85 /* 微信 */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E98C61B6DB34F004BF999 /* resource */,
+				2FC154CD1B56120800C07A85 /* messages.plist */,
+				2FB37D821B573B55006164E6 /* friends.plist */,
+				2FB37D7E1B573A7A006164E6 /* Friend list */,
+				2FC154A01B56106E00C07A85 /* Modal */,
+				2FC1549F1B56106600C07A85 /* View */,
+				2FC1549E1B56105100C07A85 /* Controller */,
+				2FC1547C1B56100B00C07A85 /* AppDelegate.h */,
+				2FC1547D1B56100B00C07A85 /* AppDelegate.m */,
+				2FC154851B56100B00C07A85 /* Images.xcassets */,
+				2FC154871B56100B00C07A85 /* LaunchScreen.xib */,
+				2FC154781B56100B00C07A85 /* Supporting Files */,
+			);
+			path = "微信";
+			sourceTree = "<group>";
+		};
+		2FC154781B56100B00C07A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154791B56100B00C07A85 /* Info.plist */,
+				2FC1547A1B56100B00C07A85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC154911B56100B00C07A85 /* 微信Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154941B56100B00C07A85 /* __Tests.m */,
+				2FC154921B56100B00C07A85 /* Supporting Files */,
+			);
+			path = "微信Tests";
+			sourceTree = "<group>";
+		};
+		2FC154921B56100B00C07A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154931B56100B00C07A85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC1549E1B56105100C07A85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154A11B56108700C07A85 /* ViewController.h */,
+				2FC154A21B56108700C07A85 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2FC1549F1B56106600C07A85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154A41B5610AC00C07A85 /* MessageTableViewCell.h */,
+				2FC154A51B5610AC00C07A85 /* MessageTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2FC154A01B56106E00C07A85 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154A71B56117A00C07A85 /* MessageModal.h */,
+				2FC154A81B56117A00C07A85 /* MessageModal.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		2FC154AA1B5611FB00C07A85 /* 微信图片 */ = {
+			isa = PBXGroup;
+			children = (
+				2FC154AB1B5611FB00C07A85 /* chat_bg_default.jpg */,
+				2FC154AC1B5611FB00C07A85 /* chat_bottom_keyboard_nor.png */,
+				2FC154AD1B5611FB00C07A85 /* chat_bottom_keyboard_press.png */,
+				2FC154AE1B5611FB00C07A85 /* chat_bottom_smile_nor.png */,
+				2FC154AF1B5611FB00C07A85 /* chat_bottom_smile_press.png */,
+				2FC154B01B5611FB00C07A85 /* chat_bottom_textfield.png */,
+				2FC154B11B5611FB00C07A85 /* chat_bottom_up_nor.png */,
+				2FC154B21B5611FB00C07A85 /* chat_bottom_up_press.png */,
+				2FC154B31B5611FB00C07A85 /* chat_bottom_voice_nor.png */,
+				2FC154B41B5611FB00C07A85 /* chat_bottom_voice_press.png */,
+				2FC154B51B5611FB00C07A85 /* chatfrom_bg_normal.png */,
+				2FC154B61B5611FB00C07A85 /* chatto_bg_normal.png */,
+				2FC154B71B5611FB00C07A85 /* Icon.png */,
+				2FC154B81B5611FB00C07A85 /* icon01.jpg */,
+				2FC154B91B5611FB00C07A85 /* icon02.jpg */,
+				2FC154BA1B5611FB00C07A85 /* Icon@2x.png */,
+				2FC154BB1B5611FB00C07A85 /* toolbar_bottom_bar.png */,
+			);
+			path = "微信图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC154741B56100B00C07A85 /* 微信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC154981B56100B00C07A85 /* Build configuration list for PBXNativeTarget "微信" */;
+			buildPhases = (
+				2FC154711B56100B00C07A85 /* Sources */,
+				2FC154721B56100B00C07A85 /* Frameworks */,
+				2FC154731B56100B00C07A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信";
+			productName = "微信";
+			productReference = 2FC154751B56100B00C07A85 /* 微信.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC1548D1B56100B00C07A85 /* 微信Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC1549B1B56100B00C07A85 /* Build configuration list for PBXNativeTarget "微信Tests" */;
+			buildPhases = (
+				2FC1548A1B56100B00C07A85 /* Sources */,
+				2FC1548B1B56100B00C07A85 /* Frameworks */,
+				2FC1548C1B56100B00C07A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC154901B56100B00C07A85 /* PBXTargetDependency */,
+			);
+			name = "微信Tests";
+			productName = "微信Tests";
+			productReference = 2FC1548E1B56100B00C07A85 /* 微信Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC1546D1B56100B00C07A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "弄潮者";
+				TargetAttributes = {
+					2FC154741B56100B00C07A85 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2FC1548D1B56100B00C07A85 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2FC154741B56100B00C07A85;
+					};
+				};
+			};
+			buildConfigurationList = 2FC154701B56100B00C07A85 /* Build configuration list for PBXProject "微信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC1546C1B56100B00C07A85;
+			productRefGroup = 2FC154761B56100B00C07A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC154741B56100B00C07A85 /* 微信 */,
+				2FC1548D1B56100B00C07A85 /* 微信Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC154731B56100B00C07A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC154C11B5611FB00C07A85 /* chat_bottom_textfield.png in Resources */,
+				2FC154CB1B5611FB00C07A85 /* Icon@2x.png in Resources */,
+				2FC154C61B5611FB00C07A85 /* chatfrom_bg_normal.png in Resources */,
+				2FC154C01B5611FB00C07A85 /* chat_bottom_smile_press.png in Resources */,
+				2FC154CC1B5611FB00C07A85 /* toolbar_bottom_bar.png in Resources */,
+				2FB37D851B573B8B006164E6 /* tableCell_common.png in Resources */,
+				2FC154C91B5611FB00C07A85 /* icon01.jpg in Resources */,
+				2FC154891B56100B00C07A85 /* LaunchScreen.xib in Resources */,
+				2FC154CA1B5611FB00C07A85 /* icon02.jpg in Resources */,
+				2FC154C41B5611FB00C07A85 /* chat_bottom_voice_nor.png in Resources */,
+				2FC154BE1B5611FB00C07A85 /* chat_bottom_keyboard_press.png in Resources */,
+				2FC154C71B5611FB00C07A85 /* chatto_bg_normal.png in Resources */,
+				2FC154BD1B5611FB00C07A85 /* chat_bottom_keyboard_nor.png in Resources */,
+				2FC154CE1B56120800C07A85 /* messages.plist in Resources */,
+				2FC154BF1B5611FB00C07A85 /* chat_bottom_smile_nor.png in Resources */,
+				2FB37D831B573B55006164E6 /* friends.plist in Resources */,
+				2FC154C51B5611FB00C07A85 /* chat_bottom_voice_press.png in Resources */,
+				2FC154BC1B5611FB00C07A85 /* chat_bg_default.jpg in Resources */,
+				2FC154861B56100B00C07A85 /* Images.xcassets in Resources */,
+				2FC154C81B5611FB00C07A85 /* Icon.png in Resources */,
+				2FC154C21B5611FB00C07A85 /* chat_bottom_up_nor.png in Resources */,
+				2FC154C31B5611FB00C07A85 /* chat_bottom_up_press.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC1548C1B56100B00C07A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC154711B56100B00C07A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC154A31B56108700C07A85 /* ViewController.m in Sources */,
+				2FC154A61B5610AC00C07A85 /* MessageTableViewCell.m in Sources */,
+				2FB37D811B573B10006164E6 /* ViewControllerFriendsList.m in Sources */,
+				2FC154A91B56117A00C07A85 /* MessageModal.m in Sources */,
+				2FC1547E1B56100B00C07A85 /* AppDelegate.m in Sources */,
+				2FC1547B1B56100B00C07A85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC1548A1B56100B00C07A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC154951B56100B00C07A85 /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC154901B56100B00C07A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC154741B56100B00C07A85 /* 微信 */;
+			targetProxy = 2FC1548F1B56100B00C07A85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FC154871B56100B00C07A85 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC154881B56100B00C07A85 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC154961B56100B00C07A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FC154971B56100B00C07A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC154991B56100B00C07A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC1549A1B56100B00C07A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FC1549C1B56100B00C07A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "微信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信.app/微信";
+			};
+			name = Debug;
+		};
+		2FC1549D1B56100B00C07A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "微信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信.app/微信";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC154701B56100B00C07A85 /* Build configuration list for PBXProject "微信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC154961B56100B00C07A85 /* Debug */,
+				2FC154971B56100B00C07A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC154981B56100B00C07A85 /* Build configuration list for PBXNativeTarget "微信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC154991B56100B00C07A85 /* Debug */,
+				2FC1549A1B56100B00C07A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC1549B1B56100B00C07A85 /* Build configuration list for PBXNativeTarget "微信Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC1549C1B56100B00C07A85 /* Debug */,
+				2FC1549D1B56100B00C07A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC1546D1B56100B00C07A85 /* Project object */;
+}
