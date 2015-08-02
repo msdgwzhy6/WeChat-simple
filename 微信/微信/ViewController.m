@@ -158,7 +158,7 @@
 
 #pragma mark - nav的设置
 - (void)_setNavigation {
-    self.title = @"iOS学习小组";
+    self.title = @"WeChat";
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"好友列表" style:UIBarButtonItemStylePlain target:self action:@selector(returnFriendsListAction:)];
     self.navigationItem.leftBarButtonItem = item;
 }
